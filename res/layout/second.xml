@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	
+	<TextView
+		android:id="@+id/name_label"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/name"/>
+		
+	<EditText
+		android:id="@+id/name_edit_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textCapWords"/>
+		
+	<TextView
+		android:id="@+id/genre_label"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/genre"/>
+		
+	<EditText
+		android:id="@+id/genre_edit_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textCapWords"/>
+		
+	<Button
+		android:id="@+id/next_button "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/add_movie"/>
+   
+</LinearLayout>
